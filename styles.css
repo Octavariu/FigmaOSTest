@@ -1,0 +1,578 @@
+body, html {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Poppins, sans-serif, Verdana;
+    
+}
+
+
+
+.root-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-nav-bar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.top-nav-bar a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+}
+
+.logo-image {    
+    width: 70px;
+    margin-left: 200px;
+}
+
+.ACER-logo-subdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+li {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
+.first-div {
+    position: relative;
+    max-width:100%;    
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -5%;
+}
+
+.first-sub-div {    
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.first-text-1 {
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.first-text-2 {
+    font-size: 2rem;
+    margin: 8px;
+    
+}
+
+.first-text-3 {
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.find-out-button {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #04726D;
+    color: white;
+    font-size: 0.7rem;
+    border: none;
+}
+
+.background-img {
+    width:100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    background-color: #09257A;
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+}
+
+.blue-div-text {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.blue-div-text2 {
+    margin: 0px;
+    font-size: 0.8rem;
+}
+
+.button-svg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+
+}
+
+.second-div-icons {
+    max-width: 25%;
+    align-self: center;
+    margin: 10px;
+}
+
+.math-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;    
+    width: 30%;
+}
+
+.third-div {
+    position: relative;
+    max-width:100%;    
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -5%;
+}
+
+.third-sub-div {    
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.cert-award-button {
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 4px 8px;
+    background-color: #09257A;
+    color: white;
+    font-size: 0.65rem;
+    border: none;
+}
+
+.third-text-1 {
+    margin: 5px;
+    font-size: 1rem;
+}
+.third-text-2 {
+    margin: 5px;
+    font-size: 0.85rem;
+}
+
+.faded-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,1) 20%,rgba(255,255,255,0) 90%);
+    z-index: 0;
+}
+
+.background-gradient {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+}
+.fourth-div {
+    position: relative;
+    width:100%;    
+    padding: 0px;
+    margin-top: 4%;
+    
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.test-div {
+    width: 100%;
+    align-self: center;
+}
+
+.test-div-2 {
+    width: 100%;
+    height: 30%;
+    align-self: center;
+}
+
+.content-1 {
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    top: 35%;
+}
+
+.img-green-gradient {
+    width: inherit;
+}
+
+.content {
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    top: -15%;
+}
+
+.content::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.fourth-div img {
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+.fourth-sub-div {
+    position: relativee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 10;
+    align-items: center;    
+    z-index: 2;
+
+}
+
+.faded-img-green::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #1647568a 0%,#16475600 100%);
+    /* z-index: 1; */
+}
+
+.fourth-sub-div-text1 {
+    font-size:1.5rem;
+    margin: 5px;
+}
+
+.fourth-sub-div-text-second-section {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 310%;
+    font-size: 1.5rem;
+}
+
+.fourth-sub-div-text2 {
+    text-align: center;
+    font-size: .75em;
+    margin: 5px;
+
+}
+
+.fourth-sub-div-2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    top:150%;
+}
+
+.fourth-sub-div-3 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    top:150%;
+}
+
+.challenge-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.challenge-icon img {
+    height: 80%;
+    align-self: center;
+}
+
+.challenge-icon-2 img {
+    height: 80%;
+}
+
+.challenge-icon-text2 {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.challenge-icon-text {
+    font-size: 0.7rem;
+    margin: 5px;
+}
+
+.fourth-div-icons2 {
+    z-index: 2;
+    color: black;
+}
+
+.fourth-div-icons2 img {
+    position: absolute;
+    top: 270%;
+    height: 2px;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fourth-div-line-icons {
+    top: 290% !important;
+    
+}
+
+
+
+.div-flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.article-info-title{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+
+
+.text-standard-margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.article-link{
+    max-width: 225px;
+    margin: 10px;
+}
+
+.small-text {
+    font-size: 80%;
+}
+
+.small-text-heading6 {
+    font-size: 0.55rem;
+    color: grey;
+}
+
+#higher-edu-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+    background-color: #9999991e;
+    height: 20px;
+    width: 40%;
+    border-radius: 4px;
+    
+}
+
+.heading-h2 {
+    margin-top: 50px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.box-shadow{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+}
+
+.sixth-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.sixth-heading-text1 {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.sixth-heading-text2 {
+    margin: 10px;
+    font-size: 0.65rem;
+}
+
+.sixth-div-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    
+}
+
+.form-send-button {
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #04726D;
+    color: white;
+    font-size: 0.7rem;
+    border: none;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+option:first-child {
+    color: #999; 
+  }
+
+
+#country {
+    width: calc(100% - 5px);    
+}
+
+.form-send-optional {
+    text-align: left;
+    margin: 1px;
+    font-size: 0.6rem;
+    height: 10px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 40px;
+    background-color: rgb(47,47,47);
+
+    font-size:1rem;
+    color: #F2F2F2;
+}
+
+.footer-div img {
+    width: 60px;
+    margin-left: 50px;    
+}
+
+.footer-div h6 {
+    margin-right: 50px;
+}
+
+@media (max-width: 500px) {
+    .button-svg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
+    
+
+    .second-div-icons {
+        margin: 10px;
+    }
+  }
+
+  @media (max-width: 600px){
+    .third-text-1, .third-text-2, .cert-award-button {
+        margin-left: 50px;
+    }
+
+    .top-nav-bar a{
+        font-size: 0.65rem;
+    }
+
+  }
+
+  @media (max-width: 800px) {
+    .logo-image {
+        margin-left: 10px;
+    }
+
+    .fourth-sub-div-text-second-section {
+        top: 155%;
+        left: 25%;
+        
+    }
+
+    .fourth-div-line-icons {
+        top: 360% !important;
+        transform: rotate(90deg);
+        width: 10px;
+    }
+
+    .fourth-sub-div-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-basis: auto;
+        margin-left: 25px;        
+    }
+
+    .fourth-div-icons {
+        width: 40%;
+    }
+    .challenge-icon {
+        width: 200%;
+    }
+
+    .fourth-sub-div-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        flex-basis: auto;
+        margin-left: 25px;      
+        position: absolute;
+        top: 5%;
+        right: 15%;
+    }
+  }
